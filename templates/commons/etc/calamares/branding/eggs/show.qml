@@ -31,16 +31,18 @@ Presentation
     }
     Slide {
         Image {
-            id: image1
-            source: "penguins1.png"
+            id: slide1
+            source: "slide1.png"
             anchors.centerIn: parent
             width: 810
             height: 485
             fillMode: Image.PreserveAspectFit
         }
          Text {
+            font.family: "Helvetica"
+            font.pixelSize : 22
             color: "#ff2a00"
-            anchors.horizontalCenter: image1.horizontalCenter
+            anchors.horizontalCenter: slide1.horizontalCenter
             anchors.top: image1.verticalCenter
             text: "<h1>Benvenuto in Penguin's eggs</h1> .<br/>"+
                   "<b>Penguin's eggs</b> creato da Piero Proietti, sviluppato per la comunità.<br/>"+
@@ -53,8 +55,8 @@ Presentation
     }
     Slide {
         Image {
-            id: image2
-            source: "penguins2.png"
+            id: slide2
+            source: "slide2.png"
             anchors.centerIn: parent
             width: 810
             height: 485
@@ -62,7 +64,7 @@ Presentation
         }
          Text {
             color: "#ff2a00"
-            anchors.horizontalCenter: image2.horizontalCenter
+            anchors.horizontalCenter: slide2.horizontalCenter
             anchors.top: image2.verticalCenter
             text: "<h1>Benvenuto in Penguin's eggs</h1> .<br/>"+
                   "<b>Penguin's eggs</b> creato da Piero Proietti, sviluppato per la comunità.<br/>"+
@@ -76,8 +78,8 @@ Presentation
 
     Slide {
         Image {
-            id: image3
-            source: "penguins3.png"
+            id: slide3
+            source: "slide3.png"
             anchors.centerIn: parent
             width: 810
             height: 485
@@ -85,7 +87,7 @@ Presentation
         }
          Text {
             color: "#ff2a00"
-            anchors.horizontalCenter: image3.horizontalCenter
+            anchors.horizontalCenter: slide3.horizontalCenter
             anchors.top: image3.verticalCenter
             text: "<h1>Benvenuto in Penguin's eggs</h1> .<br/>"+
                   "<b>Penguin's eggs</b> creato da Piero Proietti, sviluppato per la comunità.<br/>"+
@@ -99,8 +101,8 @@ Presentation
 
     Slide {
         Image {
-            id: image4
-            source: "penguins4.png"
+            id: slide4
+            source: "slide4.png"
             anchors.centerIn: parent
             width: 810
             height: 485
@@ -108,7 +110,7 @@ Presentation
         }
          Text {
             color: "#ff2a00"
-            anchors.horizontalCenter: image4.horizontalCenter
+            anchors.horizontalCenter: slide4.horizontalCenter
             anchors.top: image4.verticalCenter
             text: "<h1>Benvenuto in Penguin's eggs</h1> .<br/>"+
                   "<b>Penguin's eggs</b> creato da Piero Proietti, sviluppato per la comunità.<br/>"+
@@ -122,8 +124,8 @@ Presentation
 
     Slide {
         Image {
-            id: image5
-            source: "penguins5.png"
+            id: slide5
+            source: "slide5.png"
             anchors.centerIn: parent
             width: 810
             height: 485
@@ -131,7 +133,7 @@ Presentation
         }
          Text {
             color: "#ff2a00"
-            anchors.horizontalCenter: image5.horizontalCenter
+            anchors.horizontalCenter: slide5.horizontalCenter
             anchors.top: image5.verticalCenter
             text: "<h1>Benvenuto in Penguin's eggs</h1> .<br/>"+
                   "<b>Penguin's eggs</b> creato da Piero Proietti, sviluppato per la comunità.<br/>"+
@@ -145,8 +147,8 @@ Presentation
 
     Slide {
         Image {
-            id: image6
-            source: "penguins6.png"
+            id: slide6
+            source: "slide6.png"
             anchors.centerIn: parent
             width: 810
             height: 485
@@ -154,7 +156,7 @@ Presentation
         }
          Text {
             color: "#ff2a00"
-            anchors.horizontalCenter: image6.horizontalCenter
+            anchors.horizontalCenter: slide6.horizontalCenter
             anchors.top: image6.verticalCenter
             text: "<h1>Benvenuto in Penguin's eggs</h1> .<br/>"+
                   "<b>Penguin's eggs</b> creato da Piero Proietti, sviluppato per la comunità.<br/>"+
@@ -168,8 +170,8 @@ Presentation
 
     Slide {
         Image {
-            id: image7
-            source: "penguins7.png"
+            id: slide7
+            source: "slide7.png"
             anchors.centerIn: parent
             width: 810
             height: 485
@@ -177,7 +179,7 @@ Presentation
         }
          Text {
             color: "#ff2a00"
-            anchors.horizontalCenter: image7.horizontalCenter
+            anchors.horizontalCenter: slide7.horizontalCenter
             anchors.top: image7.verticalCenter
             text: "<h1>Benvenuto in Penguin's eggs</h1> .<br/>"+
                   "<b>Penguin's eggs</b> creato da Piero Proietti, sviluppato per la comunità.<br/>"+
